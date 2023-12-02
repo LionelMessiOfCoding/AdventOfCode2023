@@ -9,6 +9,7 @@ int main() {
 
     if(data.is_open()) {
         long long answer = 0;
+
         while(getline(data, line)) {
             int first = -1;
             int last = -1;
@@ -24,6 +25,7 @@ int main() {
             }
             answer += first*10 + last;
         }
+        
         data.close();
         std::cout << "The sum of all calibration values is: " << answer << '\n';
     }
