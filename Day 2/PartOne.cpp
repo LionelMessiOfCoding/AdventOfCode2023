@@ -5,10 +5,8 @@ namespace {
 }
 
 
-int PartOne::sumOfGames(std::ifstream&) {
+int PartOne::sumOfGames(std::ifstream& data) {
     int sumGameIDs = 0;
-    std::ifstream data;
-    data.open("PuzzleInput.txt");
     std::string line;
 
     while(getline(data, line)) {

@@ -5,8 +5,7 @@
 
 class PartOne {
 public:
-int sumOfGames(std::ifstream&);
+    int sumOfGames(std::ifstream&);
 };
-
 
 #endif /* PARTONE_H_ */
