@@ -1,0 +1,3 @@
+Game 31: 9 blue; 1 red, 2 blue, 5 green; 2 blue, 2 red, 9 green; 2 blue, 1 red, 8 green; 11 green, 2 red, 3 blue; 7 green, 5 blue
+Game 32: 15 red, 5 green; 4 green, 2 blue, 3 red; 1 blue, 9 red; 1 blue, 15 red; 4 blue, 2 red, 8 green; 3 green, 3 blue
+Game 33: 13 blue, 1 red, 1 green; 8 blue, 6 red; 4 blue, 2 red
