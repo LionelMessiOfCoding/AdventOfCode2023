@@ -7,6 +7,7 @@ int main() {
     std::ifstream data;
     data.open("PuzzleInput.txt");
 
+    // Part One
     if(data.is_open()) {
         PartOne p1;
         int answer1 = p1.TotalPoints(data);
