@@ -1,6 +1,5 @@
 #include <iostream>
 #include <fstream>
-#include <string>
 
 #include "PartOne.cpp"
 #include "PartTwo.cpp"
@@ -15,6 +14,7 @@ int main() {
         int partOneAnswer = p1.sumOfGames(data);
         std::cout << "The sum of all valid game IDs is " << partOneAnswer << '\n';
     }
+    
     // Reset stream to beginning for Part 2
     data.clear();   // Clears any error flags
     data.seekg(0);  // Moves pointer back to beginning of file

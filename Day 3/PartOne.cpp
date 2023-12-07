@@ -4,18 +4,18 @@
 
 int PartOne::sumParts(std::ifstream& data) {
     int sumOfParts = 0;
-    std::vector<std::string> engineSchematic;
 
+    // Storing the input data in a vector
+    std::vector<std::string> engineSchematic;
     std::string line;
     while(getline(data, line)) {
         engineSchematic.push_back(line);    
     }
     
+    // Iterating through each character
     for(int i = 0; i < engineSchematic.size(); i++) {
-
         int partNumber = 0;
         bool isPart = false;
-
         for(int j = 0; j < engineSchematic[i].size(); j++) {
             if(isdigit(engineSchematic[i][j])) {
                 partNumber = (partNumber*10) + (engineSchematic[i][j] - '0');

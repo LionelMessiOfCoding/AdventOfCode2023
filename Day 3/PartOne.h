@@ -26,5 +26,5 @@ public:
 //          - When the end of the line is reached and it's a number, also calls checkSymbol() etc. (Important for edge case with number at end)
 
 // checkSymbol():
-//      - Checks for a symbol around the given point
+//      - Checks for a symbol directly around the given point, in the bounds of vec.size()/vec[i].size()
 //      - Used in sumParts() to update isPart
